@@ -1,0 +1,31 @@
+print("Bienvenido, oprima enter y complete el formulario.")
+nombre1=input("Ingrese su primer Nombre:",)
+nombre2=input("Ingrese su segundo Nombre:",)
+apellido1=input("Ingrese su primer Apellido:",)
+apellido2=input("Ingrese su segundo Apellido:",)
+empresa=input("Nombre de la empresa:")
+print("Bienvenido al sistema")
+print(nombre 1)
+print(nombre 2)
+print(apellido 1)
+print(apellido 2)
+print("Empresa:" + empresa)
+
+
+GananciaEnero=int(input("Ingrese las ganancias de enero: 15"))
+GananciaFebrero=int(input("Ingrese las ganancias de febrero:20 "))
+GananciaMarzo=int(input("Ingrese las ganancias de marzo: 34"))
+GananciaAbril=int(input("Ingrese las ganancias de abril: 52"))
+GananciaMayo=int(input("Ingrese las ganancias de mayo: 14"))
+GananciaJunio=int(input("Ingrese las ganancias de junio: 65"))
+GananciaJulio=int(input("Ingrese las ganancias de julio: 24"))
+GananciaAgosto=int(input("Ingrese las ganancias de agosto: 13"))
+GananciaSeptiembre=int(input("Ingrese las ganancias de septiembre: 78"))
+GananciaOctubre=int(input("Ingrese las ganancias de octubre: 45"))
+GananciaNoviembre=int(input("Ingrese las ganancias de noviembre: 14"))
+GananciaDiciembre=int(input("Ingrese las ganancias de diciembre: 95"))
+
+gananciastotales=GananciaEnero+GananciaFebrero+GananciaMarzo+GananciaAbril+GananciaMayo+GananciaJunio+GananciaJulio+GananciaAgosto+GananciaSeptiembre+GananciaOctubre+GananciaNoviembre+GananciaDiciembre
+print("Las ganancias fueron de: ",gananciastotales)
+
+print("Gracias por utilizar nuestros servicios, lo esperamos pronto")
